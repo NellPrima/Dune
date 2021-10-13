@@ -37,6 +37,6 @@ function changeBg(){
     section.style.backgroundImage = bg;
 };
 
-setInterval(changeBg, 10000);
+setInterval(changeBg, 60000);
 
 
