@@ -27,11 +27,11 @@ setInterval(countdown, 1000);
 
 function changeBg(){
     const images = [
-        'url("img/img1.jpg")',
-        'url("img/img2.jpg")',
-        'url("img/img4.jpg")',
-        'url("img/img7.jpg")',
-        'url("img/img6.jpg")',
+        'url("img1.jpg")',
+        'url("img2.jpg")',
+        'url("img4.jpg")',
+        'url("img7.jpg")',
+        'url("img6.jpg")',
     ]
 
     const section = document.querySelector('.coming_soon');
