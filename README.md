@@ -1,2 +1,2 @@
 # Dune
-A countdown timer for when I will be watching the movie Dune
+A timer that counts the days until Dune part 2 is released. 
