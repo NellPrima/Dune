@@ -1,7 +1,7 @@
 const countdown = () => {
-    const countDate = new Date("October 24, 2021 11:55:00").getTime();
+    const countDate = new Date("October 20, 2023").getTime();
     const now = new Date().getTime();
-    const gap = now - countDate;
+    const gap = countDate - now;
 
     const second = 1000;
     const minute = second * 60;
@@ -18,9 +18,7 @@ const countdown = () => {
     document.querySelector('.minute').innerText = textMinute;
     document.querySelector('.second').innerText = textSecond;
 
-  // if(gap < 1000){
-   // changeBg();
-  // }
+ 
 };
 
 setInterval(countdown, 1000);
